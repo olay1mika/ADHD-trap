@@ -2,7 +2,7 @@ import pygame
 from sys import exit
 from random import randint
 
-HEIGHT = 500
+HEIGHT = 1080
 WIDTH = 1920
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
