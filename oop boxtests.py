@@ -58,11 +58,6 @@ circles = [
     Circle("green", [-1, 1], screen.get_width() / 2, screen.get_height() / 2),
 ]
 
-for i in circles:
-    i.moving_parts()
-    i.bounce_check()
-    i.draw()
-
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
